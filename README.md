@@ -6,8 +6,8 @@ ssh自动登录脚本
 function account(){
 #下面是配置ssh账号的地方
 #用户名	主机地址	端口号	密码/或者证书文件绝对地址
-bandit	hostname.com	40022
-ubuntu2	hostname.com	20022	xlh!@#\$1234
+bandit	hostname.com	422
+ubuntu2	hostname.com	222	xlh!@#\$1234
 xulianhong	hostname.com	222	file_path.pem
 }
 ```
