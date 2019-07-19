@@ -11,10 +11,10 @@ ubuntu2	hostname.com	20022	xlh!@#\$1234
 xulianhong	hostname.com	222	file_path.pem
 }
 ```
-1.在这个函数里面配置你的ssh账号密码，第四列可以是私钥证书或者ssh密码(遇到$要转义)
-2.需要安装expect
-3.chmod +x ssh
-4.开始连接
+1.在这个函数里面配置你的ssh账号密码，第四列可以是私钥证书或者ssh密码(遇到$要转义)  
+2.需要安装expect  
+3.chmod +x ssh  
+4.开始连接  
 ```
 ./ssh.sh 40022
 ssh bandit@home.series.com -p 422
